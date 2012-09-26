@@ -3,6 +3,7 @@ yii-jqTree
 
 alternative JS tree for yii framework, with drag-n-drop. Implements jQuery plugin jqTree: http://mbraak.github.com/jqTree/
 
+Demo: http://yii-demo.16mb.com/
 Usage:
 ```php
 <?php
