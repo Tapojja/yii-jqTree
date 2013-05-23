@@ -1,5 +1,5 @@
 {
-    "name": "amerw/yii-jqTree",
+    "name": "lamerw/yii-jqTree",
     "description": "alternative JS tree for yii framework, with drag-n-drop.",
     "keywords": ["tree","jquery","yii"],
     "type": "yii-extension",
