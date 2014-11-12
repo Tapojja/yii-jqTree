@@ -8,6 +8,8 @@ class JQTree extends CTreeView
 	public $dataUrl;
 	public $autoOpen;
 	public $autoEscape;
+	public $openedIcon;
+	public $closedIcon;
 
 	public $onCanSelectNode;
 	public $onCreateLi;
@@ -52,7 +54,7 @@ class JQTree extends CTreeView
 	{
 		$options=$this->options;
 		$availableOptions = array('data', 'id', 'dragAndDrop', 'saveState', 'dataUrl', 'autoOpen', 'selectable', 'autoEscape',
-			'onCanSelectNode','onCreateLi','onIsMoveHandle','onCanMove', 'onCanMoveTo');
+			'onCanSelectNode','onCreateLi','onIsMoveHandle','onCanMove', 'onCanMoveTo','openedIcon','closedIcon');
 
 		foreach($availableOptions as $name)
 		{
